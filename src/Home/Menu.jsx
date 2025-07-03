@@ -30,7 +30,7 @@ function Menu({width,result,viewportWidth }) {
         }}
       >
         <Image
-          src="src/assets/avatar.png"
+          src="avatar.png"
           preview={false}
           alt="React Logo"
           style={{objectFit: 'cover'}}
