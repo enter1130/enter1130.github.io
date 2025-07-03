@@ -17,7 +17,7 @@ function Menu({width,result,viewportWidth }) {
     result(value);
   };
   return (
-    <div className="align-item-center justify-content-center d-flex flex-column" style={{ width: "100%", justifyContent: "center",marginTop:viewportWidth > 768 ?'120px':'' }}>
+    <div className="align-item-center justify-content-center d-flex flex-column" style={{ width: "100%", justifyContent: "center",marginTop:viewportWidth > 768 ?'150px':'' }}>
       <div className="border rounded-circle my-3 align-self-center justify-content-center d-flex" style={{height: `${imgWidth}px`,width: `${imgWidth}px`,boxSizing: 'border-box',overflow: 'hidden'}}>
         <Image src="avatar.png" preview={false} alt="React Logo" style={{objectFit: 'cover'}} />
       </div>
@@ -88,7 +88,6 @@ function Menu({width,result,viewportWidth }) {
           </Button>
         </Col>
       </Row>
-      <div></div>
     </div>
   );
 }

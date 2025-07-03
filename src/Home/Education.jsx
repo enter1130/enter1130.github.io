@@ -62,7 +62,7 @@ function Education() {
             {education.map((item,key)=>(
               <div className="m-3" key={key} style={{backgroundColor:'rgb(248, 248, 248)'}}>
                 <div className="p-2" style={{minHeight:'100px',margin:'10px'}}>
-                  <Row className="pb-2 d-flex flex-row align-items-center justify-content-between">
+                  <Row className="pb-2 mx-3 d-flex flex-row align-items-center justify-content-between">
                     <Col xs={24} sm={24} md={12} lg={12} xl={12} className="d-flex flex-row align-items-center">
                       <div className="my-3">
                         <h5 style={{padding:0,margin:0}}>{item.name}</h5>
@@ -84,7 +84,7 @@ function Education() {
               <div className="m-3 border" key={key}>
                 <div>
                   <div className="px-2 pt-2" style={{minHeight:'100px',marginTop:'10px',marginRight:'10px',marginLeft:'10px'}}>
-                    <Row className="pb-2 d-flex flex-row align-items-center justify-content-between">
+                    <Row className="pb-2 mx-3 d-flex flex-row align-items-center justify-content-between">
                       <Col xs={24} sm={24} md={12} lg={12} xl={12} className="d-flex flex-row align-items-center">
                         <div className="my-3">
                           <h5 style={{padding:0,margin:0}}>{item.name}</h5>
