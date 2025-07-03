@@ -61,20 +61,20 @@ function Education() {
         <div className="border " style={{paddingTop:'60px'}}>
             {education.map((item,key)=>(
               <div className="m-3" key={key} style={{backgroundColor:'rgb(248, 248, 248)'}}>
-              <div className="p-2" style={{minHeight:'100px',margin:'10px'}}>
-                <Row className="pb-2 d-flex flex-row align-items-center justify-content-between">
-                  <Col xs={24} sm={24} md={12} lg={12} xl={12} className="d-flex flex-row align-items-center">
-                    <div className="my-3">
-                      <h5 style={{padding:0,margin:0}}>{item.name}</h5>
-                      <p style={{padding:0,margin:2}} className="text-muted">{item.school}</p>
-                    </div>
-                  </Col>
-                  <Col xs={24} sm={24} md={12} lg={12} xl={12} className="text-md-end"><Tag color={item.color} className="p-1">{item.date}</Tag></Col>
-                </Row>
-                <div>
-                  {item.content}
+                <div className="p-2" style={{minHeight:'100px',margin:'10px'}}>
+                  <Row className="pb-2 d-flex flex-row align-items-center justify-content-between">
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12} className="d-flex flex-row align-items-center">
+                      <div className="my-3">
+                        <h5 style={{padding:0,margin:0}}>{item.name}</h5>
+                        <p style={{padding:0,margin:2}} className="text-muted">{item.school}</p>
+                      </div>
+                    </Col>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12} className="text-md-end"><Tag color={item.color} className="p-1">{item.date}</Tag></Col>
+                  </Row>
+                  <div className="p-3 mb-3">
+                    {item.content}
+                  </div>
                 </div>
-              </div>
               </div>
             ))}
         </div>
